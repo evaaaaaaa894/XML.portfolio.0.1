@@ -1,6 +1,6 @@
 # Fleabag Script Encoding Project
 
-Welcome to this repository, dedicated to encoding excerpts from the script of the multi-award-winning television series ***Fleabag***, written and created by **Phoebe Waller-Bridge**  This project encodes selected moments using **XML** following the **TEI** model, in order to explore how narrative and multimodal features can be represented digitally.
+Welcome to this repository, dedicated to encoding excerpts from the script of the multi-award-winning television series *Fleabag*, written and created by Phoebe Waller-Bridge  This project encodes selected moments using XML following the TEI model, in order to explore how narrative and multimodal features can be represented digitally.
 
 ## Context
 
@@ -9,7 +9,7 @@ sex, love and loss. The second series aired in the summer of 2019 to further cri
 
 I chose *Fleabag* because it stands as an exemplary piece of contemporary writing, structurally rich, emotionally layered, and formally inventive. It also holds personal meaning for me, as it is one of the truest depictions of what it means to be, as a woman, as a person.
 
-## Presentation of the Sources
+## Sources
 
 The published script divides the narrative only by episode. To meet the assignment’s length criteria and maintain narrative integrity, I defined shorter meaningful units extracted exclusively from **Season 2**, which maintains thematic and narrative coherence.
 
@@ -25,7 +25,7 @@ The selected excerpts are:
 * **Scholarly Modeling**: The TEI-inspired schema supports the representation of both spoken and visual dimensions of performance texts.
 * **Interpretive Focus**: The encoding highlights how text, performance, and direction interact to build meaning in *Fleabag*.
 
-## Statement on AI Usage
+## Statement on AI
 
 AI was used only as a conversational and brainstorming tool for structuring ideas. All conceptual, editorial, and encoding work was carried out independently as I do not belive in AI technical capacities.
 
