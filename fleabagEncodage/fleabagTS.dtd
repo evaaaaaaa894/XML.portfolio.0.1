@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT TEI (teiHeader, text)>
+<!ATTLIST TEI xml:lang (en | fr) #IMPLIED>
+
+<!-- TEI Header -->
+<!ELEMENT teiHeader (fileDesc)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, author)>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT persName (#PCDATA)>
+<!ELEMENT publicationStmt (authority, date ,availability)>
+<!ELEMENT authority (persName)>
+<!ELEMENT availability (licence)>
+<!ELEMENT licence (#PCDATA) >
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT bibl (author, date, publisher)>
+<!ELEMENT author (persName) >
+<!ATTLIST bibl type (book | excerpt) #IMPLIED>
+<!ELEMENT publisher (#PCDATA)>
+
+<!-- TEI text -->
+<!ELEMENT text (front, body) >
+
+<!ELEMENT front (timeline, castList) >
+<!ELEMENT timeline (#PCDATA)> <!-- pour indiqué l'episode et la saison -->
+<!ELEMENT castList (castItem+)> <!-- annonce du cast list -->
+<!ELEMENT castItem (role, roleDesc, actor) > <!-- ensemble role/acteur -->
+<!ELEMENT role (#PCDATA)>
+<!ATTLIST role xml:id ID #IMPLIED> <!-- peut etre pas necessaire -->
+<!ELEMENT roleDesc (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+
+<!ELEMENT body (div+)>
+<!ELEMENT div (head*, set*, sp+, view*, camera*, caption*, sound*, pause*, move*)>
+<!ELEMENT head (#PCDATA) >
+<!ELEMENT set (#PCDATA)>
+<!ELEMENT sp (speaker, p*, pause*)>
+<!ATTLIST sp toWhom (us | them) #IMPLIED>
+<!ELEMENT speaker (#PCDATA)>
+<!ELEMENT p (#PCDATA) >
+<!ELEMENT pause (#PCDATA)>
+
+
+<!ELEMENT view (#PCDATA)> <!-- contexte visuel description vue-->
+<!ELEMENT camera (#PCDATA)> <!-- vue angle technique -->
+<!ELEMENT caption (#PCDATA)> <!-- texte afficher -->
+<!ELEMENT sound (#PCDATA)>
+
+<!ELEMENT move (#PCDATA)>
+<!ATTLIST move type (entrance | exit | onStage) #IMPLIED>

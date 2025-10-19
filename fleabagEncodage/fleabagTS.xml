@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "fleabagTS.dtd">
+<TEI xml:lang="en" >
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Fleabag the TEI encoding</title>
+           <author>
+              <persName>Eva Riviere</persName>
+           </author>
+        </titleStmt>
+        <publicationStmt>
+           <authority>
+              <persName>Eva Riviere</persName>
+           </authority>
+           <date>2025</date>
+           <availability>
+              <licence></licence>
+           </availability>
+        </publicationStmt>
+        <sourceDesc>
+           <bibl type="book">
+              <author>
+                 <persName>Phoebe Waller-Bridge</persName>
+              </author>
+              <date>2019</date>
+              <publisher>Ballantine Books</publisher>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <timeline></timeline>
+        <castList>
+           <castItem>
+              <role></role>
+              <roleDesc></roleDesc>
+              <actor></actor>
+           </castItem>
+        </castList>
+     </front>
+     <body>
+        <div>
+           <head></head>
+           <sp toWhom="us">
+              <speaker></speaker>
+              <p></p>
+              <pause/>
+           </sp>
+           <view></view>
+           <camera></camera>
+           <caption></caption>
+           <sound></sound>
+           <move/>
+        </div>
+     </body>
+  </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
