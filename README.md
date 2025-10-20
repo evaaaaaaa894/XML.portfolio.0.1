@@ -1,10 +1,10 @@
 # Fleabag Script Encoding Project
 
-Welcome to this repository, dedicated to encoding excerpts from the script of the multi-award-winning television series *Fleabag*, written and created by Phoebe Waller-Bridge  This project encodes selected moments using XML following the TEI model, in order to explore how narrative and multimodal features can be represented digitally.
+Welcome to this repository, dedicated to encoding excerpts from the script of the multi-award-winning television series *Fleabag*, written and created by Phoebe Waller-Bridge. This project encodes selected moments using XML following the TEI model, in order to explore how narrative and multimodal features can be represented digitally.
 
 ## Context
 
-*Fleabag* is a television series based on the play of the same name. It tells the story of a woman living in London grappling with family, work,
+"*Fleabag* is a television series based on the play of the same name. It tells the story of a woman living in London grappling with family, work,
 sex, love and loss. The second series aired in the summer of 2019 to further critical acclaim. It is a love story." Then the full script was published in print by Ballantine Books in 2019.
 
 I chose *Fleabag* because it stands as an exemplary piece of contemporary writing, structurally rich, emotionally layered, and formally inventive. It also holds personal meaning for me, as it is one of the truest depictions of what it means to be, as a woman, as a person.
